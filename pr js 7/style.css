@@ -1,0 +1,110 @@
+body
+{
+  background-color: #222222;
+  font-size: 24px;
+  color: cyan;
+}
+
+#menu
+{
+  cursor: pointer;
+  min-width: 200px;
+  padding: 20px;
+  background-color: grey;
+  border: 3px solid lightblue;
+  color: cyan;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.color-box {
+  margin: 20px;
+  background-color: grey;
+  height: 380px;
+  width: 160px;
+  position: absolute;
+  border: 3px solid lightblue;
+  padding-left: 12px;
+  margin-left: 10px;
+  margin-top: 0px;
+  display: none;
+  border-radius: 10px;
+}
+
+#zegar
+{
+    font-size: 50px;
+    float: right;
+    padding-right: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    color: cyan;
+    padding-left: 5px;
+    border: 3px solid lightblue;
+    font-family: sans-serif;
+}
+
+#tytul
+{
+  font-size: 60px;
+  float: right;
+  margin-right: 470px;
+  color: cyan;
+  border: 3px solid lightblue;
+  background-color: grey;
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer
+{
+  font-size: 25px;
+  margin-top: 813px;
+  background-color: grey;
+  color: cyan;
+  text-align: center;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+}
+
+a
+{
+  text-decoration: none;
+  color: cyan;
+}
+
+a:hover
+{
+  color: #222222;
+}
+
+#zmiana-koloru
+{
+  float: right;
+  padding-top: 2px;
+  margin-left: 400px;
+}
+
+#ciemny
+{
+  cursor: pointer;
+  min-width: 10px;
+  padding: 3px;
+  background-color: grey;
+  border: 3px solid lightblue;
+  color: cyan;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+#jasny
+{
+  cursor: pointer;
+  min-width: 10px;
+  padding: 3px;
+  background-color: grey;
+  border: 3px solid lightblue;
+  color: cyan;
+  font-size: 25px;
+  border-radius: 10px;
+}

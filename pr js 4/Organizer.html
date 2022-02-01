@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)file:///C:/Users/jkruger/Desktop/praktyki/projekt%20js%205/index.html? -->
+<html lang="pl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <meta name="description" content="Organizer">
+  <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+  <title>Organizer</title>
+  <link rel="stylesheet" href="./Organizer_files/style.css" type="text/css">
+  <link rel="stylesheet" href="./Organizer_files/main.css" type="text/css">
+  <link href="./Organizer_files/css2" rel="stylesheet" type="text/css">
+  <script src="./Organizer_files/timer.js.pobrany plik"></script>
+  <script src="./Organizer_files/main.js.pobrany plik"></script>
+
+</head>
+
+<body onload="odliczanie();">
+
+  <div id="container">
+
+    <div class="rectangle">
+			<div id="logo">Organizer</div>
+      <div id="hist" onclick="hist()">Lista zadań</div>
+      <div id="nowe" onclick="nowezad()">Nowe zadanie</div>
+			<div id="zegar">08:28:52</div>
+			<div style="clear: both;"></div>
+		</div>
+    <div class="rectangle1">
+
+    <div id="historia" style="display: block;">Lista zadań:
+    <button type="button" onclick="usun()">usun</button>
+      <div id="lista"><label class="container"><input type="checkbox">➔8:30 iść na fajke<span class="checkmark"></span></label><label class="container"><input type="checkbox">➔9:40 iść na fajke<span class="checkmark"></span></label><label class="container"><input type="checkbox">➔10:30 iść na fajke<span class="checkmark"></span></label><label class="container"><input type="checkbox">➔11:30 iść na fajke<span class="checkmark"></span></label><label class="container"><input type="checkbox">➔12:50 iść na fajke<span class="checkmark"></span></label><label class="container"><input type="checkbox">➔13:40 iść na fajke<span class="checkmark"></span></label><label class="container"><input type="checkbox">➔14:50 iść na fajke<span class="checkmark"></span></label></div>
+    </div>
+    <div id="nowezad" style="display: none;">Nowe Zadanie:
+    <br>
+    <input id="text">
+    <button type="button" onclick="zapisz()">zapisz</button>
+    </div>
+
+    </div>
+
+  </div>
+
+
+</body></html>

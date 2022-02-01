@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+
+  <meta charset="utf-8"/>
+  <meta name="description" content="Organizer">
+  <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+  <title>Organizer</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="main.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" type="text/css">
+  <script src="timer.js"></script>
+  <script src="main.js"></script>
+
+</head>
+
+<body onload="odliczanie();">
+
+  <div id="container">
+
+    <div class="rectangle">
+			<div id="logo">Organizer</div>
+      <div id="hist" onclick="hist()">Lista zadań</div>
+      <div id="nowe" onclick="nowezad()">Nowe zadanie</div>
+			<div id="zegar">12:00:00</div>
+			<div style="clear: both;"></div>
+		</div>
+    <div class="rectangle1">
+
+    <div id="historia">Lista zadań:
+    <button type="button"  onclick="usun()">usun</button>
+      <div id="lista"></div>
+    </div>
+    <div id="nowezad" style="display: none">Nowe Zadanie:
+    <br>
+    <input id="text"/>
+    <button type="button" onclick="zapisz()">zapisz</button>
+    </div>
+
+    </div>
+
+  </div>
+
+</body>

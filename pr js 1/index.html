@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<html>
+<head>
+		<meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="timer.js"></script>
+    <script src="main.js"></script>
+
+	</head>
+
+<body onload='zmienslajd(); odliczanie();'>
+
+    <div id="logo">Samoloty:</div>
+
+    <div id="opis">Obrazki:
+    <input type="button" name="pause" onclick="pause_slajd()">Pause</input>
+    <input type="button" name="play" onclick="play_slajd()">Start</input>
+    </div>
+
+		<div id="zegar"></div>
+
+    <div id="slider">
+		<span onclick="ustawslajd(1)" style="cursor:pointer;">[ 1 ]</span>
+		<span onclick="ustawslajd(2)" style="cursor:pointer;">[ 2 ]</span>
+		<span onclick="ustawslajd(3)" style="cursor:pointer;">[ 3 ]</span>
+		<span onclick="ustawslajd(4)" style="cursor:pointer;">[ 4 ]</span>
+ 		</div>
+
+</body>
+</html>

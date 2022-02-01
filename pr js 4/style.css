@@ -1,0 +1,94 @@
+body
+{
+  background-color: gray;
+  color: lightblue;
+  font-size: 48px;
+  font-family: 'Open Sans' , sans-serif;
+  text-align: center;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.rectangle1
+{
+  width: 800px;
+  height:740px;
+  color: green;
+  background-color: lightgray;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-size: 60px;
+}
+
+#hist
+{
+  font-size: 40px;
+  float: left;
+  color: green;
+  padding-left: 30px;
+  padding-bottom: 50px;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#nowe
+{
+  font-size: 40px;
+  float: right;
+  color: green;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#logo
+{
+  color: gray;
+  text-align: center;
+  padding-right: 70px;
+  font-size: 60px;
+}
+
+#zegar
+{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 70px;
+}
+
+#tn
+{
+  margin-left: 780px;
+  font-size: 28px;
+}
+
+button
+{
+  padding: 5px;
+}
+
+#lista
+{
+  background-color: lightgray;
+  padding-bottom: 575px;
+  border-radius: 10px;
+}

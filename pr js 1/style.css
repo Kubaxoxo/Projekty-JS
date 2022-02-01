@@ -1,0 +1,46 @@
+body
+{
+  background-color: #222222;
+  font-size: 24px;
+  color: white;
+}
+
+#slider
+{
+  background-color: #222222;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  width: 300px;
+}
+
+#logo
+{
+  font-size: 50px;
+  color: gray;
+  padding-left: 20px;
+}
+
+#opis
+{
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: lightgray;
+}
+
+#zegar
+{
+  font-size: 100px;
+  float: right;
+  padding-right: 30px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+
+button
+{
+  padding: 15px;
+}

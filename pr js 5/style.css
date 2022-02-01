@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #363232;
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+#kalk {
+  background-color: #131517;
+  color: #004487;
+  font-size: 30px;
+  height: 580px; 
+  width: 500px;  
+  margin-top: 10px;
+  margin-left: 30%;
+  border-radius: 10px; 
+  padding-top: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #111CF0;
+}
+
+#wynik {
+  background-color: #111CF0;
+  color: #000000;
+  height: 50px;
+  width: 450px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+#dzialanie {
+  background-color: #111CF0;
+  color: #000000;
+  height: 50px;
+  width: 450px;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-top: 5px;
+  border-color: #0000CD;
+}
+
+#pole {
+  background-color: #363232;
+  color: #000000;
+  height: 45px;
+  width: 443px;
+  border-radius: 10px;
+  font-size: 30px;
+  border-color: #363232;
+}
+
+#pojemnik {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(60px, auto) repeat(5, 60px);
+  font-size-adjust: 30px;
+  padding-right: 100px;
+  margin-top: 30px;
+  margin-left: 20%;
+}
+
+button {
+  cursor: pointer;
+  font-size: 30px;
+  padding: 5px;
+  background-color: #222121;
+  color: #0000CD;
+  float: left;
+  border-radius: 10px;
+  border-color: #0000CD;
+}
